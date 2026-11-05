@@ -33,8 +33,6 @@ function sortAll() {
   render();
 }
 
-// === Components ===
-
 function NumberForm() {
   const $form = document.createElement("div");
   $form.innerHTML = `
@@ -66,7 +64,6 @@ function CategoryDisplay(title, nums) {
   return $section;
 }
 
-// === Render ===
 function render() {
   const $app = document.querySelector("#app");
   $app.innerHTML = `
